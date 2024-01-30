@@ -1,5 +1,4 @@
 import Card from "./Card";
-import './Tours.css';
 
 function Tours(props) {
   return (

@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "./App.css";
 import data from "./data.js";
 import Tours from "./component/Tours";
 
