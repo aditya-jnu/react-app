@@ -1,0 +1,61 @@
+.cardContent{
+    border: 1px solid black;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.831);
+    border-radius: 1rem;
+    width: 20vw;
+    height: auto; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2vw;
+    padding: 2rem;
+}
+.cont{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vw;
+}
+.image{
+    width: 100%;
+    height: 60%;
+    border-radius: 0.5rem;
+}
+.tourInfo{
+    display: flex;
+    flex-direction: column;
+    font-weight: 800;
+    font-size: 2vw;
+}
+.price{
+    color: green;
+}
+.name{
+    margin-top: -1vw;
+}
+
+.rm{
+    cursor: pointer;
+    color: rgb(3, 3, 236);
+}
+
+.btn{
+    cursor: pointer;
+    padding-top: 0.2vw;
+    padding-bottom: 0.2vw;
+    height: 30px;
+    border-radius: 0.5rem;
+    transition: 0.3s ease-in-out ;
+}
+.btn:hover{
+    background-color: steelblue;
+    scale: 1.1;
+}
+@media (max-width: 800px){
+    .cardContent{
+       width: 40vw;
+    }
+    .tourInfo{
+        font-size: 4vw;
+    }
+}
